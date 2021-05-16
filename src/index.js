@@ -4,10 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import {robots} from './robots';
+import CardList from './components/CardList';
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <CardList robots={robots} />,
   document.getElementById('root')
 );
 
